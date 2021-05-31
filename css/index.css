@@ -13,6 +13,10 @@ html,body {
     letter-spacing: 1px;
 }
 
+.section {
+    
+}
+
 /* HEADER */
 .header__top {
     background-color: #363d41;
@@ -66,5 +70,73 @@ header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hov
     color: #7f67f8;
 }
 
+/* CAROUSEL */
+.carousel {
+    min-height: 700px;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url(../img/b1.jpg);
+    background-size: cover;
+    position: relative;
+}
 
+.carousel .owl-carousel {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
 
+.owl-carousel .item {
+    padding-bottom: 70px;
+}
+
+.owl-carousel .item h1 {
+    font-size: 2.8rem;
+    letter-spacing: .2em;
+}
+
+.owl-carousel .item p {
+    width: 80%;
+    margin: 20px auto 40px;
+    line-height: 28px;
+}
+
+.owl-carousel .item a {
+    color: white;
+    padding: 8px 30px;
+    border: 2px solid white;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.owl-carousel .item a:hover {
+    background-color: #7f67f8;
+    border: 2px solid #7f67f8;
+}
+
+.owl-carousel .item a:last-child {
+    background-color: #7f67f8;
+    border: 2px solid #7f67f8;
+}
+
+.owl-carousel .item a:last-child:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.carousel .owl-theme .owl-dots .owl-dot span {
+    background-color: #7f67f8;
+    outline: none;
+    width: 14px;
+    height: 14px;
+}
+
+.carousel .owl-theme .owl-dots .owl-dot.active span, .carousel .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: white;
+}
+
+/* BENEFITS */

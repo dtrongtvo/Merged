@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Merged</title>
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
@@ -109,9 +112,47 @@
       </div>
     </header>
     <!-- CAROUSEL -->
-    <section class="carousel"></section>
+    <section class="carousel">
+      <div class="container owl-carousel owl-theme">
+        <div class="item">
+          <h1>THE BEST BUSINESS SUPPORT</h1>
+          <p>
+            Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec
+            Nisl Dolor, Mollis Vel Libero Id, Tempor Cursus Lectus. Vestibulum
+            Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.
+          </p>
+          <a href="#">About Us</a>
+          <a href="#">Read More</a>
+        </div>
+        <div class="item">
+          <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+          <p>
+            Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec
+            Nisl Dolor, Mollis Vel Libero Id, Tempor Cursus Lectus. Vestibulum
+            Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.
+          </p>
+          <div class="carousel__button">
+            <a href="#">About Us</a>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="item">
+          <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+          <p>
+            Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices Viverra. Donec
+            Nisl Dolor, Mollis Vel Libero Id, Tempor Cursus Lectus. Vestibulum
+            Eu Ligula Et Pharetra Efficitur. Maecenas Eleifend.
+          </p>
+          <div class="carousel__button">
+            <a href="#">About Us</a>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- BENEFITS -->
-    <section class="benefits"></section>
+    <section class="benefits">
+    </section>
     <!-- SLOGAN -->
     <section class="slogan"></section>
     <!-- STATS -->
@@ -135,5 +176,19 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay:true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
