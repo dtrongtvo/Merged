@@ -186,3 +186,24 @@ header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hov
     border-left: 1px solid #e8e8e8;
     border-right: 1px solid #e8e8e8;
 }
+
+/* SLOGAN */
+.slogan {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    color: white;
+    padding: 90px 0;
+}
+
+.slogan a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7em 2em;
+    background-color: #7f67f8;
+    transition: all .5s;
+}
+
+.slogan a:hover {
+    background-color: #f97c69;
+}
+
