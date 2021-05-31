@@ -4,7 +4,67 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 html,body {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
+
+/* HEADER */
+.header__top {
+    background-color: #363d41;
+    padding: 15px 0;
+    color: white;
+}
+
+.header__social a {
+    color: white;
+    margin-right: 1.7rem;
+    transition: all .5s;
+}
+
+.header__social a:hover {
+    color: #527dbd;
+}
+
+header .navbar-light .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #868c94;
+}
+
+header .navbar-brand span {
+    color: #7f67f8;
+    font-size: 40px;
+}
+
+header .navbar-light .navbar-brand {
+    color: #868c94;
+}
+
+header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hover {
+    color: #868c94;
+}
+
+#headerNav .nav-item > a {
+    color: #363d41;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+#headerNav .dropdown-item {
+    transition: all .5s;
+    padding: ;
+}
+
+#headerNav .nav-item.active a {
+    color: #7f67f8;
+}
+
+
+
