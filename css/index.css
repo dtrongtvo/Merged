@@ -19,7 +19,7 @@ html,body {
 
 .heading {
     text-align: center;
-    margin-bottom: 5em;
+    margin-bottom: 0 auto 5em;
 }
 
 .heading h1 {
@@ -195,6 +195,10 @@ header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hov
     padding: 90px 0;
 }
 
+.slogan h1 {
+    letter-spacing: 4px;
+}
+
 .slogan a {
     color: white;
     text-decoration: none;
@@ -207,3 +211,32 @@ header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hov
     background-color: #f97c69;
 }
 
+/* STATS */
+.stats .heading {
+    width: 60%;
+    margin: 0 auto 5em;
+}
+
+.stats__content {
+    text-align: center;
+}
+
+.stats__content p:first-child {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f97c69;
+    letter-spacing: 2px;
+}
+
+.stats__content h3 {
+    font-size: 20px;
+    color: #2c363e;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.stats__content p:last-child {
+    font-size: 15px;
+    color: #777;
+}
