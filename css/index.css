@@ -14,7 +14,28 @@ html,body {
 }
 
 .section {
-    
+    padding: 70px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.heading h1 {
+    text-shadow: 0 1px 2px rgb(0 0 0 / 37%);
+}
+
+.heading p {
+    margin: 20px 0;
+}
+
+.bord {
+    width: 60%;
+    height: 1px;
+    margin: 0 auto 50px;
+    background-color: #e8e8e8;
+
 }
 
 /* HEADER */
@@ -140,3 +161,28 @@ header .navbar-light .navbar-brand:focus, header .navbar-light .navbar-brand:hov
 }
 
 /* BENEFITS */
+.benefits {
+    text-align: center;
+}
+
+.benefits .row i {
+    font-size: 40px;
+    color: #f97c69;
+}
+
+.benefits .row h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.benefits .row p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+.benefits .row .col-4:nth-child(2) {
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
